@@ -5,6 +5,7 @@ fun calcDeployedJettonWallet(ownerAddress: address, minterAddress: address, jett
         jettonBalance: 0,
         ownerAddress,
         minterAddress,
+        jettonWalletCode,
     };
 
     return {

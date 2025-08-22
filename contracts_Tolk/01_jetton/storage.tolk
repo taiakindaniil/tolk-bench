@@ -3,6 +3,7 @@ struct WalletStorage {
     jettonBalance: coins
     ownerAddress: address
     minterAddress: address
+    jettonWalletCode: cell
 }
 
 struct MinterStorage {
